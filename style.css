@@ -1,0 +1,120 @@
+
+body{
+  background-color: white;
+
+}
+#logo1{
+  height: 100px;
+}
+#logo2{
+  height: 80px;
+  padding-left: 800px;
+}
+.heading{
+  color:blueviolet;
+  font-size: 60px;
+  font-style:normal;
+  font-weight:bolder;
+  font-family:cursive;
+  text-align: center;
+  text-shadow:2px 2px 5px;
+}
+@media screen and (max-width: 450px){
+  .heading{
+    font-size: 30px;
+  }
+  #logo1{
+    height: 80px;
+    width: 250px;
+  }
+  #logo2{
+    height: 40px;
+    padding-left: 10px;
+
+  }
+
+}
+.subheading{
+  text-align: center;
+  font-style:italic;
+  font-family:monospace;
+  font-size: 18px;
+}
+b{
+  color:rgba(204,104,32,1);
+}
+#mainposter{
+  height: 500px;
+  width: 500px;
+  border-radius: 20px;
+
+}
+.frame1div{
+  margin-top: 50px;
+  display:flex;
+  justify-content: center;
+
+
+}
+.eventposter{
+  border-radius: 20px;
+  height: 400px;
+  width: 400px;
+  margin: 3px 3px 3px 3px;
+
+
+}
+.events{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items:center;
+}
+.eventheading{
+  text-align: center;
+  font-style:normal;
+  font-weight:bolder;
+  font-family:serif;
+  font-size: 30px;
+
+}
+a{
+  text-decoration: none;
+  color:brown;
+  font-weight:bold;
+
+}
+footer{
+  background-color: aqua;
+  border-radius: 5px;
+  text-align: center;
+  font-family: cursive;
+}
+@media screen and (max-width:450px ){
+  .events{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #mainposter{
+    width: 300px;
+    height: 300px;
+  }
+  .eventposter{
+    width: 300px;
+    height: 300px;
+
+  }
+}
+.web{
+  display: flex;
+  flex-direction: column;
+}
+.python{
+  display: flex;
+  flex-direction: column;
+}
+.flutter{
+  display: flex;
+  flex-direction: column;
+}
