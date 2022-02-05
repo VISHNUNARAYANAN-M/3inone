@@ -99,6 +99,37 @@ footer{
   display: flex;
   flex-direction: column;
 }
+@media screen and (max-width:1210px){
+  .eventposter{
+    border-radius: 20px;
+    height: 350px;
+    width: 350px;
+    margin: 3px 3px 3px 3px;
+
+
+  }
+  .events{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+}
+@media screen and (max-width:1080px){
+  .eventposter{
+    border-radius: 20px;
+    height: 300px;
+    width: 300px;
+    margin: 3px 3px 3px 3px;
+
+
+  }
+  .events{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+}
+
 @media screen and (max-width:950px){
   #logo1{
     height: 80px;
