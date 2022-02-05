@@ -99,7 +99,7 @@ footer{
   display: flex;
   flex-direction: column;
 }
-@media screen and (max-width:850px){
+@media screen and (max-width:950px){
   #logo1{
     height: 80px;
     width: 250px;
